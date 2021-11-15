@@ -1,8 +1,7 @@
 import argparse
-from collections import OrderedDict
-
 import mmcv
 import torch
+from collections import OrderedDict
 
 arch_settings = {50: (3, 4, 6, 3), 101: (3, 4, 23, 3)}
 

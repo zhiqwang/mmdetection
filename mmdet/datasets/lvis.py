@@ -1,11 +1,10 @@
 import itertools
 import logging
+import numpy as np
 import os.path as osp
 import tempfile
 import warnings
 from collections import OrderedDict
-
-import numpy as np
 from mmcv.utils import print_log
 from terminaltables import AsciiTable
 
@@ -340,7 +339,7 @@ class LVISV05Dataset(CocoDataset):
                 warnings.warn(
                     'mmlvis is deprecated, please install official lvis-api by "pip install git+https://github.com/lvis-dataset/lvis-api.git"',  # noqa: E501
                     UserWarning)
-            from lvis import LVISResults, LVISEval
+            from lvis import LVISEval, LVISResults
         except ImportError:
             raise ImportError(
                 'Package lvis is not installed. Please run "pip install git+https://github.com/lvis-dataset/lvis-api.git".'  # noqa: E501

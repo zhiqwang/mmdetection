@@ -1,10 +1,9 @@
 import asyncio
+import mmcv
 import os
 import shutil
-import urllib
-
-import mmcv
 import torch
+import urllib
 
 from mmdet.apis import (async_inference_detector, inference_detector,
                         init_detector)

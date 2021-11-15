@@ -1,11 +1,10 @@
 import argparse
-import os
-import os.path as osp
-
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import mmcv
 import numpy as np
+import os
+import os.path as osp
 
 try:
     import imageio

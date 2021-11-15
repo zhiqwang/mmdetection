@@ -1,6 +1,5 @@
-import warnings
-
 import torch.nn as nn
+import warnings
 from mmcv.cnn import ConvModule
 from mmcv.runner import BaseModule
 from torch.nn.modules.batchnorm import _BatchNorm

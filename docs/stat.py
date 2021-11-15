@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 import functools as func
 import glob
+import numpy as np
 import os.path as osp
 import re
-
-import numpy as np
 
 url_prefix = 'https://github.com/open-mmlab/mmdetection/blob/master/'
 

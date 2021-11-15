@@ -1,6 +1,5 @@
-import warnings
-
 import torch.nn as nn
+import warnings
 from mmcv.runner import BaseModule, auto_fp16
 
 from mmdet.models.backbones import ResNet

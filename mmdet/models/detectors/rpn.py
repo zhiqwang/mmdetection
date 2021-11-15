@@ -1,7 +1,6 @@
-import warnings
-
 import mmcv
 import torch
+import warnings
 from mmcv.image import tensor2imgs
 
 from mmdet.core import bbox_mapping

@@ -1,8 +1,7 @@
-from multiprocessing import Pool
-
 import mmcv
 import numpy as np
 from mmcv.utils import print_log
+from multiprocessing import Pool
 from terminaltables import AsciiTable
 
 from .bbox_overlaps import bbox_overlaps

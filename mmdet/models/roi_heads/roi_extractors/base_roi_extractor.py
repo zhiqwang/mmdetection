@@ -1,7 +1,6 @@
-from abc import ABCMeta, abstractmethod
-
 import torch
 import torch.nn as nn
+from abc import ABCMeta, abstractmethod
 from mmcv import ops
 from mmcv.runner import BaseModule
 

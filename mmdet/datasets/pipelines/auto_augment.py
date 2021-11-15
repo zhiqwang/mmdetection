@@ -1,5 +1,4 @@
 import copy
-
 import cv2
 import mmcv
 import numpy as np

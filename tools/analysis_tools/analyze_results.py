@@ -1,8 +1,7 @@
 import argparse
-import os.path as osp
-
 import mmcv
 import numpy as np
+import os.path as osp
 from mmcv import Config, DictAction
 
 from mmdet.core.evaluation import eval_map

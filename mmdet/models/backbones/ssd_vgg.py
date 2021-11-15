@@ -1,6 +1,5 @@
-import warnings
-
 import torch.nn as nn
+import warnings
 from mmcv.cnn import VGG
 from mmcv.runner import BaseModule
 

@@ -1,11 +1,10 @@
 import argparse
-import os.path as osp
-import warnings
-from functools import partial
-
 import numpy as np
 import onnx
+import os.path as osp
 import torch
+import warnings
+from functools import partial
 from mmcv import Config, DictAction
 
 from mmdet.core.export import build_model_from_cfg, preprocess_example_input

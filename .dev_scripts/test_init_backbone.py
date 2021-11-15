@@ -1,11 +1,10 @@
 """Check out backbone whether successfully load pretrained checkpoint."""
 import copy
 import os
-from os.path import dirname, exists, join
-
 import pytest
 from mmcv import Config, ProgressBar
 from mmcv.runner import _load_checkpoint
+from os.path import dirname, exists, join
 
 from mmdet.models import build_detector
 

@@ -1,8 +1,7 @@
 import argparse
 import tempfile
-from collections import OrderedDict
-
 import torch
+from collections import OrderedDict
 from mmcv import Config
 
 

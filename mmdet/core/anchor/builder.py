@@ -1,5 +1,4 @@
 import warnings
-
 from mmcv.utils import Registry, build_from_cfg
 
 PRIOR_GENERATORS = Registry('Generator for anchors and points')

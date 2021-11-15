@@ -1,7 +1,6 @@
 import sys
-from inspect import signature
-
 import torch
+from inspect import signature
 
 from mmdet.core import bbox_mapping_back, merge_aug_proposals, multiclass_nms
 

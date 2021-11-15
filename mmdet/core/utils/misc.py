@@ -1,7 +1,6 @@
-from functools import partial
-
 import numpy as np
 import torch
+from functools import partial
 from six.moves import map, zip
 
 from ..mask.structures import BitmapMasks, PolygonMasks

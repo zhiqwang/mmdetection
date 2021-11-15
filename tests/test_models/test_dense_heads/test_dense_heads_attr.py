@@ -1,5 +1,4 @@
 import warnings
-
 from terminaltables import AsciiTable
 
 from mmdet.models import dense_heads

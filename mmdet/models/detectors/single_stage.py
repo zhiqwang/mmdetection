@@ -1,6 +1,5 @@
-import warnings
-
 import torch
+import warnings
 
 from mmdet.core import bbox2result
 from ..builder import DETECTORS, build_backbone, build_head, build_neck

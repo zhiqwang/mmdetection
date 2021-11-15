@@ -1,9 +1,8 @@
 import argparse
-import os.path as osp
-import xml.etree.ElementTree as ET
-
 import mmcv
 import numpy as np
+import os.path as osp
+import xml.etree.ElementTree as ET
 
 from mmdet.core import voc_classes
 

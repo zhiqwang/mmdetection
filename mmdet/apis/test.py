@@ -1,10 +1,9 @@
+import mmcv
 import os.path as osp
 import pickle
 import shutil
 import tempfile
 import time
-
-import mmcv
 import torch
 import torch.distributed as dist
 from mmcv.image import tensor2imgs

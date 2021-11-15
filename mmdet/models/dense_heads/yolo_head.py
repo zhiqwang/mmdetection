@@ -1,10 +1,9 @@
 # Copyright (c) 2019 Western Digital Corporation or its affiliates.
 
-import warnings
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import warnings
 from mmcv.cnn import (ConvModule, bias_init_with_prob, constant_init, is_norm,
                       normal_init)
 from mmcv.runner import force_fp32

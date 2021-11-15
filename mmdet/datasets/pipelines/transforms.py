@@ -1,6 +1,5 @@
 import copy
 import inspect
-
 import mmcv
 import numpy as np
 from numpy import random

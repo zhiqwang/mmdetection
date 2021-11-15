@@ -1,8 +1,7 @@
-from functools import partial
-
 import mmcv
 import numpy as np
 import torch
+from functools import partial
 from mmcv.runner import load_checkpoint
 
 

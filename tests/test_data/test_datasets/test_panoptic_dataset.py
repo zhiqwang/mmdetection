@@ -1,7 +1,6 @@
+import mmcv
 import os.path as osp
 import tempfile
-
-import mmcv
 
 from mmdet.datasets import CocoPanopticDataset
 

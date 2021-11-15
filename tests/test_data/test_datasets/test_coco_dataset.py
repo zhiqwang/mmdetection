@@ -1,8 +1,7 @@
-import os.path as osp
-import tempfile
-
 import mmcv
+import os.path as osp
 import pytest
+import tempfile
 
 from mmdet.datasets import CocoDataset
 

@@ -1,5 +1,4 @@
 import math
-
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 from mmcv.runner import BaseModule, auto_fp16

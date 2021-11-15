@@ -1,10 +1,9 @@
 import copy
+import matplotlib.pyplot as plt
+import numpy as np
 import os
 from argparse import ArgumentParser
 from multiprocessing import Pool
-
-import matplotlib.pyplot as plt
-import numpy as np
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 

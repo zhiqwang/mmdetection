@@ -1,10 +1,9 @@
 import argparse
-import glob
-import os.path as osp
-
 import cityscapesscripts.helpers.labels as CSLabels
+import glob
 import mmcv
 import numpy as np
+import os.path as osp
 import pycocotools.mask as maskUtils
 
 

@@ -1,9 +1,8 @@
 import bisect
 import math
+import numpy as np
 from collections import defaultdict
 from unittest.mock import MagicMock
-
-import numpy as np
 
 from mmdet.datasets import (ClassBalancedDataset, ConcatDataset, CustomDataset,
                             RepeatDataset)

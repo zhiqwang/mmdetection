@@ -1,5 +1,3 @@
-from warnings import warn
-
 import numpy as np
 import torch
 import torch.nn as nn
@@ -8,6 +6,7 @@ from mmcv.cnn import ConvModule, build_conv_layer, build_upsample_layer
 from mmcv.ops.carafe import CARAFEPack
 from mmcv.runner import BaseModule, ModuleList, auto_fp16, force_fp32
 from torch.nn.modules.utils import _pair
+from warnings import warn
 
 from mmdet.core import mask_target
 from mmdet.models.builder import HEADS, build_loss
