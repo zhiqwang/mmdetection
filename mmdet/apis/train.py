@@ -1,8 +1,7 @@
-import random
-import warnings
-
 import numpy as np
+import random
 import torch
+import warnings
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 from mmcv.runner import (HOOKS, DistSamplerSeedHook, EpochBasedRunner,
                          Fp16OptimizerHook, OptimizerHook, build_optimizer,

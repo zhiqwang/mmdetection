@@ -2,14 +2,13 @@
 # and https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/evaluation/evalInstanceLevelSemanticLabeling.py # noqa
 
 import glob
-import os
-import os.path as osp
-import tempfile
-from collections import OrderedDict
-
 import mmcv
 import numpy as np
+import os
+import os.path as osp
 import pycocotools.mask as maskUtils
+import tempfile
+from collections import OrderedDict
 from mmcv.utils import print_log
 
 from .builder import DATASETS

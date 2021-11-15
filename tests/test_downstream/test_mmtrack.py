@@ -1,9 +1,8 @@
 import copy
-from collections import defaultdict
-
 import numpy as np
 import pytest
 import torch
+from collections import defaultdict
 from mmcv import Config
 
 

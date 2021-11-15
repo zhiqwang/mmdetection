@@ -1,6 +1,5 @@
-import warnings
-
 import torch
+import warnings
 
 from ..builder import DETECTORS
 from .single_stage import SingleStageDetector

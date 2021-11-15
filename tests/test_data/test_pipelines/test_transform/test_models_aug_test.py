@@ -1,6 +1,5 @@
-import os.path as osp
-
 import mmcv
+import os.path as osp
 import torch
 from mmcv.parallel import collate
 from mmcv.utils import build_from_cfg

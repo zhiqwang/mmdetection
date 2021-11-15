@@ -1,11 +1,10 @@
 """Tests for async interface."""
 
 import asyncio
-import os
-import sys
-
 import asynctest
 import mmcv
+import os
+import sys
 import torch
 
 from mmdet.apis import async_inference_detector, init_detector

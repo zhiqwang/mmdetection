@@ -1,9 +1,8 @@
 import argparse
-import os
-from pathlib import Path
-
 import mmcv
+import os
 from mmcv import Config, DictAction
+from pathlib import Path
 
 from mmdet.core.utils import mask2ndarray
 from mmdet.core.visualization import imshow_det_bboxes

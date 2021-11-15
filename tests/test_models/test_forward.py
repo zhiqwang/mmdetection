@@ -1,10 +1,9 @@
 """pytest tests/test_forward.py."""
 import copy
-from os.path import dirname, exists, join
-
 import numpy as np
 import pytest
 import torch
+from os.path import dirname, exists, join
 
 
 def _get_config_directory():
@@ -594,9 +593,10 @@ def test_kd_single_stage_forward():
 
 
 def test_inference_detector():
+    from mmcv import ConfigDict
+
     from mmdet.apis import inference_detector
     from mmdet.models import build_detector
-    from mmcv import ConfigDict
 
     # small RetinaNet
     num_class = 3

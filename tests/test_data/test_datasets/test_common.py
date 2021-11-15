@@ -1,17 +1,16 @@
 import copy
 import logging
-import os
-import os.path as osp
-import tempfile
-from unittest.mock import MagicMock, patch
-
 import mmcv
 import numpy as np
+import os
+import os.path as osp
 import pytest
+import tempfile
 import torch
 import torch.nn as nn
 from mmcv.runner import EpochBasedRunner
 from torch.utils.data import DataLoader
+from unittest.mock import MagicMock, patch
 
 from mmdet.core.evaluation import DistEvalHook, EvalHook
 from mmdet.datasets import DATASETS, CocoDataset, CustomDataset, build_dataset

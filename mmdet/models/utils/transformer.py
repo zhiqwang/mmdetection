@@ -1,8 +1,7 @@
 import math
-import warnings
-
 import torch
 import torch.nn as nn
+import warnings
 from mmcv.cnn import build_activation_layer, build_norm_layer, xavier_init
 from mmcv.cnn.bricks.registry import (TRANSFORMER_LAYER,
                                       TRANSFORMER_LAYER_SEQUENCE)

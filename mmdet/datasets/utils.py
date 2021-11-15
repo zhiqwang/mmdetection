@@ -1,6 +1,5 @@
 import copy
 import warnings
-
 from mmcv.cnn import VGG
 from mmcv.runner.hooks import HOOKS, Hook
 

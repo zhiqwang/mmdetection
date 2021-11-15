@@ -1,5 +1,4 @@
 import argparse
-
 import mmcv
 from mmcv import Config, DictAction
 

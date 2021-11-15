@@ -1,8 +1,7 @@
 import copy
-import warnings
-
 import numpy as np
 import torch
+import warnings
 from mmcv import ConfigDict
 from mmcv.ops import nms
 

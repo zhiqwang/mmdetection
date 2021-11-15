@@ -1,6 +1,5 @@
-from collections.abc import Sequence
-
 import numpy as np
+from collections.abc import Sequence
 from mmcv.utils import print_log
 from terminaltables import AsciiTable
 

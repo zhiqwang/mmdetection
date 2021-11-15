@@ -1,7 +1,6 @@
+import mmcv
 import os.path as osp
 import xml.etree.ElementTree as ET
-
-import mmcv
 
 from .builder import DATASETS
 from .xml_style import XMLDataset

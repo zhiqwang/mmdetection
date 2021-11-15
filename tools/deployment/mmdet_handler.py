@@ -1,7 +1,6 @@
 import base64
-import os
-
 import mmcv
+import os
 import torch
 from ts.torch_handler.base_handler import BaseHandler
 

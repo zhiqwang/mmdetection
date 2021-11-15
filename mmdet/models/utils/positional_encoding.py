@@ -1,5 +1,4 @@
 import math
-
 import torch
 import torch.nn as nn
 from mmcv.cnn.bricks.transformer import POSITIONAL_ENCODING

@@ -1,12 +1,11 @@
 import itertools
 import logging
+import mmcv
+import numpy as np
 import os.path as osp
 import tempfile
 import warnings
 from collections import OrderedDict
-
-import mmcv
-import numpy as np
 from mmcv.utils import print_log
 from terminaltables import AsciiTable
 

@@ -1,5 +1,4 @@
 import argparse
-
 import torch
 from mmcv import Config, DictAction
 

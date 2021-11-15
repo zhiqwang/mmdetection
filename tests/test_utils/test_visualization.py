@@ -1,11 +1,10 @@
 # Copyright (c) Open-MMLab. All rights reserved.
-import os
-import os.path as osp
-import tempfile
-
 import mmcv
 import numpy as np
+import os
+import os.path as osp
 import pytest
+import tempfile
 import torch
 
 from mmdet.core import visualization as vis

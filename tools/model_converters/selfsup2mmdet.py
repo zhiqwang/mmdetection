@@ -1,7 +1,6 @@
 import argparse
-from collections import OrderedDict
-
 import torch
+from collections import OrderedDict
 
 
 def moco_convert(src, dst):

@@ -1,10 +1,9 @@
-import os.path as osp
-from functools import partial
-
 import mmcv
 import numpy as np
+import os.path as osp
 import pytest
 import torch
+from functools import partial
 from mmcv.cnn import Scale
 
 from mmdet import digit_version

@@ -1,7 +1,6 @@
-from math import sqrt
-
 import torch
 import torch.nn.functional as F
+from math import sqrt
 
 
 def gaussian2D(radius, sigma=1, dtype=torch.float32, device='cpu'):

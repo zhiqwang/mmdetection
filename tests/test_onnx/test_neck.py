@@ -1,6 +1,5 @@
-import os.path as osp
-
 import mmcv
+import os.path as osp
 import pytest
 import torch
 

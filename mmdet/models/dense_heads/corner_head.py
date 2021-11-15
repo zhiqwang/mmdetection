@@ -1,8 +1,7 @@
-from logging import warning
-from math import ceil, log
-
 import torch
 import torch.nn as nn
+from logging import warning
+from math import ceil, log
 from mmcv.cnn import ConvModule, bias_init_with_prob
 from mmcv.ops import CornerPool, batched_nms
 from mmcv.runner import BaseModule

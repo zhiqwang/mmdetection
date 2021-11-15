@@ -1,8 +1,7 @@
 # This file add snake case alias for coco api
 
-import warnings
-
 import pycocotools
+import warnings
 from pycocotools.coco import COCO as _COCO
 from pycocotools.cocoeval import COCOeval as _COCOeval
 

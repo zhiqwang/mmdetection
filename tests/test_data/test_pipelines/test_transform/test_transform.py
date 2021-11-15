@@ -1,8 +1,7 @@
 import copy
-import os.path as osp
-
 import mmcv
 import numpy as np
+import os.path as osp
 import pytest
 import torch
 from mmcv.utils import build_from_cfg

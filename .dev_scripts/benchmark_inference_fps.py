@@ -1,10 +1,10 @@
 import argparse
+import mmcv
 import os
 import os.path as osp
-
-import mmcv
 from mmcv import Config, DictAction
 from mmcv.runner import init_dist
+
 from tools.analysis_tools.benchmark import measure_inferense_speed
 
 

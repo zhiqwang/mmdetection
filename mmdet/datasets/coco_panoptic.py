@@ -1,8 +1,7 @@
-import os
-from collections import defaultdict
-
 import mmcv
 import numpy as np
+import os
+from collections import defaultdict
 from mmcv.utils import print_log
 
 from .api_wrappers import COCO
@@ -11,7 +10,7 @@ from .coco import CocoDataset
 
 try:
     import panopticapi
-    from panopticapi.evaluation import pq_compute_multi_core, VOID
+    from panopticapi.evaluation import VOID, pq_compute_multi_core
     from panopticapi.utils import id2rgb
 except ImportError:
     panopticapi = None

@@ -1,9 +1,8 @@
+import mmcv
+import numpy as np
 import os.path as osp
 import warnings
 from collections import OrderedDict
-
-import mmcv
-import numpy as np
 from mmcv.utils import print_log
 from terminaltables import AsciiTable
 from torch.utils.data import Dataset

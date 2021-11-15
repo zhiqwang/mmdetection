@@ -1,9 +1,9 @@
 from __future__ import division
-import copy
-import warnings
 
+import copy
 import torch
 import torch.nn as nn
+import warnings
 from mmcv import ConfigDict
 from mmcv.ops import DeformConv2d, batched_nms
 from mmcv.runner import BaseModule, ModuleList

@@ -1,6 +1,5 @@
-from abc import ABCMeta, abstractmethod
-
 import torch
+from abc import ABCMeta, abstractmethod
 
 from .sampling_result import SamplingResult
 

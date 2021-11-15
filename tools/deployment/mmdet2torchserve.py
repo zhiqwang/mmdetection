@@ -1,8 +1,7 @@
+import mmcv
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
-
-import mmcv
 
 try:
     from model_archiver.model_packaging import package_model

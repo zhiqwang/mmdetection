@@ -1,8 +1,7 @@
-import os.path as osp
-from argparse import ArgumentParser
-
 import mmcv
 import numpy as np
+import os.path as osp
+from argparse import ArgumentParser
 
 
 def print_coco_results(results):

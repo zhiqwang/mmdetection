@@ -1,8 +1,7 @@
 # Modified from https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend  # noqa
 import logging
-import os
-
 import numpy as np
+import os
 import torch
 import torch.nn.functional as F
 from mmcv.ops import point_sample, rel_roi_point_to_rel_img_point

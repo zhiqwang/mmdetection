@@ -1,9 +1,8 @@
-from os.path import dirname, exists, join, relpath
-from unittest.mock import Mock
-
 import pytest
 import torch
 from mmcv.runner import build_optimizer
+from os.path import dirname, exists, join, relpath
+from unittest.mock import Mock
 
 from mmdet.core import BitmapMasks, PolygonMasks
 from mmdet.datasets.builder import DATASETS
@@ -65,6 +64,7 @@ def test_config_build_detector():
     """Test that all detection models defined in the configs can be
     initialized."""
     from mmcv import Config
+
     from mmdet.models import build_detector
 
     config_dpath = _get_config_directory()
@@ -178,6 +178,7 @@ def _check_roi_head(config, head):
 
 def _check_roi_extractor(config, roi_extractor, prev_roi_extractor=None):
     import torch.nn as nn
+
     # Separate roi_extractor and prev_roi_extractor checks for flexibility
     if isinstance(roi_extractor, nn.ModuleList):
         roi_extractor = roi_extractor[0]
@@ -322,9 +323,10 @@ def test_config_data_pipeline(config_rpath):
         xdoctest -m tests/test_runtime/
             test_config.py test_config_build_data_pipeline
     """
-    from mmcv import Config
-    from mmdet.datasets.pipelines import Compose
     import numpy as np
+    from mmcv import Config
+
+    from mmdet.datasets.pipelines import Compose
 
     config_dpath = _get_config_directory()
     print(f'Found config_dpath = {config_dpath}')
